@@ -13,6 +13,7 @@ Group:		File tools
 BuildRequires:	libglib-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	pcre-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 xmlclitools provides four command-line tools for searching, modifying,
