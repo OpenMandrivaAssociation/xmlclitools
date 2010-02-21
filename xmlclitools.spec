@@ -26,7 +26,7 @@ perl -pi \
     -e 's|^LIB_BASE=.*|LIB_BASE=%{_libdir}|;' \
     -e 's|^INCLUDE_BASE=.*|INCLUDE_BASE=%{_includedir}:%{_libdir}|;' \
     configure
-perl -pi -e 's|gcc|gcc %{optflags}|' Makefile
+perl -pi -e 's|gcc|gcc %{optflags} %{ldflags}|' Makefile
 
 %build
 %configure
