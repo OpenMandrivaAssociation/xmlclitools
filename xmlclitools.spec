@@ -7,7 +7,7 @@ Version:	%{version}
 Release:	%{release}
 Summary:	Command-line xml tools
 Source:		http://robur.slu.se/jensl/xmlclitools/%{name}.tar.bz2
-URL:		http://robur.slu.se/jensl/xmlclitools
+URL:		https://robur.slu.se/jensl/xmlclitools
 License:	GPL
 Group:		File tools
 BuildRequires:	libglib-devel
