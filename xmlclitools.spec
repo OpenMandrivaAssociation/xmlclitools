@@ -10,6 +10,11 @@ Source:		http://robur.slu.se/jensl/xmlclitools/%{name}.tar.bz2
 URL:		https://robur.slu.se/jensl/xmlclitools
 License:	GPL
 Group:		File tools
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libglib-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	pcre-devel
