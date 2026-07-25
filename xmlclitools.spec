@@ -1,6 +1,6 @@
 %define name	xmlclitools
 %define version 1.61
-%define release %mkrel 9
+%define release 10
 
 Name:		%{name}
 Version:	%{version}
